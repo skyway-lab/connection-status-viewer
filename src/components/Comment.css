@@ -1,0 +1,40 @@
+.Comment {
+  display: inline-block;
+  margin: 8px;
+  margin-left: 40px;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+  color: #808080;
+}
+
+.Comment.send {
+  position: relative;
+  background: rgb(254, 255, 206);
+  border-radius: 0px 50px 50px 50px;
+}
+
+.Comment.receive {
+  position: relative;  
+  background: rgb(202, 214, 250);
+  border-radius: 50px 0px 50px 50px;
+}
+
+
+.Comment.transport {
+  position: relative;
+  background: rgb(253, 175, 163);
+  border-radius: 50px 50px 50px 50px;
+}
+
+.Comment.transport:after {
+  position: absolute;
+  border:15px solid transparent;
+  border-bottom-color:rgb(253, 175, 163);
+  border-top-width:0;
+  top: -10px;
+  content:"";
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}

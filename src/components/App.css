@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-main {
+  align-items: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(58, 49, 49);
+  background-color: #eceeae;
+}
+
+.Video-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.video {
+  width: 480px;
+  height: 360px;
+  background: black;
+}
+
+.stats-dump {
+  text-align: left;
+  font-size: 12px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.Comment-list {
+  height: 200px;
+  overflow: scroll;
+}
